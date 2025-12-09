@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRI en línea - Inicio</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+
+    <!-- Clase para encabezados ocultos (accesible y compatible con W3C) -->
+    <style>
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0;
+            overflow: hidden;
+            clip: rect(0 0 0 0);
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 🔵 MENÚ SUPERIOR (Home, Iniciar sesión, Accesibilidad) -->
+    <nav class="mini-menu">
+        <a href="index.html">Inicio</a>
+        <a href="login.html">Iniciar sesión</a>
+        <a href="index.html">Accesibilidad</a>
+    </nav>
+
+    <!-- 🔵 HEADER PRINCIPAL -->
+    <header class="header">
+        <img src="../Assets/logo-sri.png" class="logo" alt="Logo del SRI">
+        <h1>SRI en línea</h1>
+    </header>
+
+    <!-- 🔵 SECCIÓN PRINCIPAL (ICONOS GRANDES) -->
+    <section class="main-services">
+        <h2 class="visually-hidden">Servicios principales</h2>
+
+        <div class="service-card">
+            <img src="../Assets/claves.png" alt="Icono Claves">
+            <p>Claves</p>
+        </div>
+
+        <div class="service-card">
+            <img src="../Assets/ruc.png" alt="Icono RUC">
+            <p>RUC</p>
+        </div>
+
+        <div class="service-card">
+            <img src="../Assets/facturacion-fisica.png" alt="Icono Facturación Física">
+            <p>Facturación Física</p>
+        </div>
+
+        <div class="service-card">
+            <img src="../Assets/facturacion-electronica.png" alt="Icono Facturación Electrónica">
+            <p>Facturación Electrónica</p>
+        </div>
+
+        <div class="service-card">
+            <img src="../Assets/declaraciones.png" alt="Icono Declaraciones">
+            <p>Declaraciones</p>
+        </div>
+
+        <div class="service-card">
+            <img src="../Assets/anexos.png" alt="Icono Anexos">
+            <p>Anexos</p>
+        </div>
+
+        <div class="service-card">
+            <img src="../Assets/pagos.png" alt="Icono Pagos">
+            <p>Pagos</p>
+        </div>
+
+        <div class="service-card">
+            <img src="../Assets/deudas.png" alt="Icono Deudas">
+            <p>Deudas</p>
+        </div>
+
+        <div class="service-card">
+            <img src="../Assets/devoluciones.png" alt="Icono Devoluciones">
+            <p>Devoluciones</p>
+        </div>
+
+        <div class="service-card">
+            <img src="../Assets/acreditacion.png" alt="Icono Acreditación">
+            <p>Acreditación</p>
+        </div>
+
+        <div class="service-card">
+            <img src="../Assets/tramites-notificaciones.png" alt="Icono Trámites">
+            <p>Trámites</p>
+        </div>
+
+        <div class="service-card">
+            <img src="../Assets/certificados.png" alt="Icono Certificados">
+            <p>Certificados</p>
+        </div>
+
+        <div class="service-card">
+            <img src="../Assets/vehiculos.png" alt="Icono Vehículos">
+            <p>Vehículos</p>
+        </div>
+
+        <div class="service-card">
+            <img src="../Assets/otros-servicios.png" alt="Icono Otros Servicios">
+            <p>Otros Servicios</p>
+        </div>
+
+    </section>
+
+    <!-- 🔵 PESTAÑAS SERVICIOS -->
+    <section class="tabs-container">
+        <h2 class="visually-hidden">Servicios del SRI</h2>
+
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('utilizados')">Servicios más utilizados</button>
+            <button class="tab" onclick="showTab('mas')">Más servicios</button>
+        </div>
+
+        <!-- 🔵 SERVICIOS MÁS UTILIZADOS -->
+        <div id="utilizados" class="tab-content active">
+
+            <div class="used-services">
+
+                <div class="used-item">
+                    <img src="../Assets/mas-utilizados/consulta-ruc.png" alt="Consulta RUC">
+                    <p>Consulta</p>
+                </div>
+
+                <div class="used-item">
+                    <img src="../Assets/mas-utilizados/valores-pagar.png" alt="Valores a pagar vehículo">
+                    <p>Valores a pagar por placa, RAMV, CPN o chasis</p>
+                </div>
+
+                <div class="used-item">
+                    <img src="../Assets/mas-utilizados/consulta-deuda.png" alt="Consulta deudas">
+                    <p>Consulta deudas firmes, impugnadas y en facilidades de pago</p>
+                </div>
+
+                <div class="used-item">
+                    <img src="../Assets/mas-utilizados/consulta-impuesto.png" alt="Consulta Impuesto a la Renta">
+                    <p>Consulta de Impuesto a la Renta causado, ISD y otros regímenes</p>
+                </div>
+
+                <div class="used-item">
+                    <img src="../Assets/mas-utilizados/facturador.png" alt="Facturador SRI">
+                    <p>Facturador SRI</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 🔵 MÁS SERVICIOS -->
+        <div id="mas" class="tab-content">
+
+            <div class="used-services">
+
+                <div class="used-item">
+                    <img src="../Assets/mas-servicios/validez-comprobantes.png" alt="Validez comprobantes físicos">
+                    <p>Validez de comprobantes físicos</p>
+                </div>
+
+                <div class="used-item">
+                    <img src="../Assets/mas-servicios/recuperar-clave.png" alt="Generar o recuperar clave">
+                    <p>Generar o recuperar clave</p>
+                </div>
+
+                <div class="used-item">
+                    <img src="../Assets/mas-servicios/estado-tributario.png" alt="Estado tributario">
+                    <p>Estado tributario y plazo de vigencia para emisión de comprobantes</p>
+                </div>
+
+                <div class="used-item">
+                    <img src="../Assets/mas-servicios/reporte-pagos.png" alt="Reporte pagos vehículos">
+                    <p>Reporte de pago vehículos</p>
+                </div>
+
+                <div class="used-item">
+                    <img src="../Assets/mas-servicios/validacion-qr.png" alt="Validación código QR">
+                    <p>Validación certificados y declaraciones código QR</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        function showTab(tab) {
+            document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+            document.querySelectorAll(".tab-content").forEach(c => c.classList.remove("active"));
+
+            document.querySelector(`button[onclick="showTab('${tab}')"]`).classList.add("active");
+            document.getElementById(tab).classList.add("active");
+        }
+    </script>
+
+</body>
+</html>
+
