@@ -125,3 +125,10 @@ body {
 .used-item p {
     font-size: 14px;
 }
+/* SECCIÓN PRINCIPAL DE SERVICIOS (GRID) */
+.main-services {
+    margin: 20px;
+    display: grid;  /* ACTIVACIÓN DE GRID */
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); /* COLUMNAS RESPONSIVAS */
+    gap: 20px; /* ESPACIO ENTRE TARJETAS */
+}
